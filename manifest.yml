@@ -1,0 +1,8 @@
+---
+applications:
+- name: cloudfoundry
+  path: cloudfoundry.mtar
+  memory: 1G
+  instances: 1
+  buildpacks: 
+  - https://github.com/cloudfoundry/staticfile-buildpack.git
